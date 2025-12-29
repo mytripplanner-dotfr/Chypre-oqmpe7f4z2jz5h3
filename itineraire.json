@@ -1,0 +1,396 @@
+{
+  "pays": "Chypre",
+  "drapeau": "🇨🇾",
+  "symbole": "☀️",
+  "titre": "Évasion Sereine à Chypre: Plages, Histoire et Douceur Méditerranéenne",
+  "budget_total": "3300-3500€ par personne",
+  "duree": "18 jours",
+  "temps_vol": "14h30 (avec escale depuis Jean, etats unis)",
+  "escale": "1",
+  "jours": [
+    {
+      "jour": 1,
+      "symbole": "🛬",
+      "titre": "Arrivée à Larnaca et Premiers Pas Chypriotes",
+      "legende": "Après un long vol, cette première journée est dédiée à une installation en douceur. Profitez de l'ambiance décontractée de Larnaca, de sa promenade en bord de mer et d'un dîner relaxant pour vous imprégner de l'atmosphère méditerranéenne. Le rythme est léger pour récupérer du décalage horaire.",
+      "lieu": "Larnaca",
+      "activites": [
+        "<strong>🛬</strong>: Arrivée à l'aéroport de Larnaca (LCA) et récupération de la voiture de location.",
+        "<strong>🛏️</strong>: Installation à votre hôtel à Larnaca et moment de détente.",
+        "<strong>🚶‍♂️</strong>: Balade relaxante le long de la promenade de Finikoudes, bordée de palmiers et de cafés."
+      ],
+      "illustration": "jour1.jpg",
+      "encarts": [
+        {
+          "symbole": "ℹ️",
+          "titre": "Conseil Arrivée",
+          "texte": "Le trajet depuis les États-Unis est long. Prévoyez une arrivée en douceur et ne surchargez pas cette première journée pour bien récupérer."
+        }
+      ]
+    },
+    {
+      "jour": 2,
+      "symbole": "🕌",
+      "titre": "Trésors Historiques et Naturels de Larnaca",
+      "legende": "Découvrez les sites emblématiques de Larnaca, mêlant spiritualité et beauté naturelle. La journée combine des visites culturelles avec des moments de contemplation au bord du lac salé, offrant un aperçu paisible de l'histoire et de l'écologie locale.",
+      "lieu": "Larnaca",
+      "activites": [
+        "<strong>🕌</strong>: Visite de la mosquée Hala Sultan Tekke, un lieu de pèlerinage important au bord du lac salé de Larnaca.",
+        "<strong>🦢</strong>: Observation des flamants roses (en saison) et autres oiseaux migrateurs au lac salé de Larnaca (selon la période de l'année).",
+        "<strong>⛪</strong>: Exploration de l'église Saint-Lazare, un chef-d'œuvre byzantin au cœur de la ville."
+      ],
+      "illustration": "jour2.jpg",
+      "encarts": [
+        {
+          "symbole": "📸",
+          "titre": "Photographie",
+          "texte": "Le lac salé offre des paysages magnifiques, surtout au lever ou au coucher du soleil. N'oubliez pas votre appareil photo."
+        }
+      ]
+    },
+    {
+      "jour": 3,
+      "symbole": "🏖️",
+      "titre": "Plages Paradisiaques et Paysages Côtiers",
+      "legende": "Cap sur la côte est pour profiter de certaines des plus belles plages de Chypre. Cette journée est dédiée à la détente au soleil, à la baignade dans des eaux cristallines et à de douces promenades le long des sentiers côtiers, loin de l'agitation.",
+      "lieu": "Ayia Napa / Protaras",
+      "activites": [
+        "<strong>🚗</strong>: Route panoramique vers la région d'Ayia Napa/Protaras (environ 45 min de Larnaca).",
+        "<strong>🚶‍♀️</strong>: Balade tranquille au Cap Greco, explorant ses grottes marines et ses vues imprenables sur la Méditerranée.",
+        "<strong>🌊</strong>: Détente et baignade à Konnos Bay, une crique isolée aux eaux turquoise et au sable fin."
+      ],
+      "illustration": "jour3.jpg",
+      "encarts": [
+        {
+          "symbole": "☀️",
+          "titre": "Protection Solaire",
+          "texte": "Le soleil chypriote est intense. N'oubliez pas crème solaire, chapeau et lunettes de soleil."
+        }
+      ]
+    },
+    {
+      "jour": 4,
+      "symbole": "🐠",
+      "titre": "Exploration Marine et Douceur du Littoral",
+      "legende": "Poursuite de l'exploration des merveilles côtières de l'est. Entre plages emblématiques et criques secrètes, cette journée invite à la baignade, à la relaxation et à la découverte des fonds marins avec masque et tuba, dans une ambiance paisible.",
+      "lieu": "Ayia Napa / Protaras",
+      "activites": [
+        "<strong>🏖️</strong>: Matinée de détente à Nissi Beach, célèbre pour son sable blanc et ses eaux peu profondes.",
+        "<strong>🐠</strong>: Snorkeling dans les eaux claires de Fig Tree Bay, une autre plage magnifique de Protaras.",
+        "<strong>🌅</strong>: Dîner en bord de mer à Protaras, profitant de l'ambiance sereine du soir."
+      ],
+      "illustration": "jour4.jpg",
+      "encarts": [
+        {
+          "symbole": "🍽️",
+          "titre": "Cuisine Locale",
+          "texte": "Goûtez aux spécialités de poissons frais dans les tavernes locales en bord de mer."
+        }
+      ]
+    },
+    {
+      "jour": 5,
+      "symbole": "🏛️",
+      "titre": "Voyage vers Limassol et Sites Antiques",
+      "legende": "Quittez la côte est pour rejoindre Limassol, la deuxième plus grande ville de Chypre. En chemin, plongez dans l'histoire antique en visitant le spectaculaire site archéologique de Kourion, offrant des vues imprenables sur la mer.",
+      "lieu": "Limassol",
+      "activites": [
+        "<strong>🚗</strong>: Départ d'Ayia Napa/Protaras pour Limassol (environ 1h15 de route).",
+        "<strong>🏛️</strong>: Visite du site archéologique de Kourion, avec son théâtre gréco-romain et ses mosaïques.",
+        "<strong>🛏️</strong>: Installation à votre hôtel à Limassol et soirée libre pour explorer le centre-ville."
+      ],
+      "illustration": "jour5.jpg",
+      "encarts": [
+        {
+          "symbole": "🚶‍♂️",
+          "titre": "Chaussures Confortables",
+          "texte": "Prévoyez des chaussures confortables pour la visite de Kourion, le site est vaste et en plein air."
+        }
+      ]
+    },
+    {
+      "jour": 6,
+      "symbole": "🏰",
+      "titre": "Charme de Limassol et Dégustation Locale",
+      "legende": "Explorez le cœur historique de Limassol, de son château médiéval à son port moderne. L'après-midi est dédiée à une expérience gustative dans la région viticole voisine, combinant culture et plaisir des sens dans un cadre relaxant.",
+      "lieu": "Limassol",
+      "activites": [
+        "<strong>🏰</strong>: Découverte du Château de Limassol et du Vieux Port, avec ses boutiques et cafés.",
+        "<strong>🚶‍♀️</strong>: Promenade dans les ruelles du Vieux Limassol, admirant l'architecture et l'ambiance.",
+        "<strong>🍇</strong>: Visite d'un domaine viticole dans la région de Commandaria (ex: KEO Winery) avec dégustation de vins locaux."
+      ],
+      "illustration": "jour6.jpg",
+      "encarts": [
+        {
+          "symbole": "🍷",
+          "titre": "Vin de Commandaria",
+          "texte": "Le Commandaria est un vin doux de dessert, l'un des plus anciens vins du monde. À ne pas manquer!"
+        }
+      ]
+    },
+    {
+      "jour": 7,
+      "symbole": "⛰️",
+      "titre": "Évasion dans les Montagnes du Troodos",
+      "legende": "Laissez la côte derrière vous pour une journée rafraîchissante dans les majestueuses montagnes du Troodos. Visitez des monastères byzantins classés à l'UNESCO et flânez dans des villages pittoresques, profitant de la fraîcheur et de la sérénité de l'altitude.",
+      "lieu": "Montagnes du Troodos",
+      "activites": [
+        "<strong>🚗</strong>: Excursion dans les montagnes du Troodos (environ 1h de Limassol).",
+        "<strong>⛪</strong>: Visite du Monastère de Kykkos, le plus riche et le plus célèbre de Chypre.",
+        "<strong>🏡</strong>: Promenade dans le charmant village d'Omodos, connu pour ses ruelles pavées et son vin."
+      ],
+      "illustration": "jour7.jpg",
+      "encarts": [
+        {
+          "symbole": "🌡️",
+          "titre": "Températures",
+          "texte": "Les montagnes du Troodos sont plus fraîches que la côte. Prévoyez une petite laine, même en été."
+        }
+      ]
+    },
+    {
+      "jour": 8,
+      "symbole": "💧",
+      "titre": "Randonnées Douces et Cascades Secrètes",
+      "legende": "Poursuivez votre exploration des Troodos avec des balades accessibles menant à de magnifiques cascades. C'est une journée pour se reconnecter à la nature, respirer l'air pur de la montagne et profiter de paysages verdoyants et apaisants.",
+      "lieu": "Montagnes du Troodos",
+      "activites": [
+        "<strong>🚶‍♂️</strong>: Randonnée facile vers les cascades de Caledonia (environ 1h30 aller-retour), un sentier ombragé et rafraîchissant.",
+        "<strong>🌿</strong>: Détente et pique-nique au bord de la rivière ou près des cascades.",
+        "<strong>💧</strong>: Découverte de la cascade de Millomeris, une autre perle cachée des Troodos."
+      ],
+      "illustration": "jour8.jpg",
+      "encarts": [
+        {
+          "symbole": "👟",
+          "titre": "Équipement",
+          "texte": "Des chaussures de marche confortables sont recommandées pour les sentiers des cascades."
+        }
+      ]
+    },
+    {
+      "jour": 9,
+      "symbole": "🗿",
+      "titre": "Vers Paphos et la Légende d'Aphrodite",
+      "legende": "Quittez les montagnes pour la côte ouest, direction Paphos, ville classée au patrimoine mondial de l'UNESCO. En chemin, faites une halte emblématique au rocher d'Aphrodite, lieu de naissance mythique de la déesse de l'amour et de la beauté.",
+      "lieu": "Paphos",
+      "activites": [
+        "<strong>🚗</strong>: Route de Limassol à Paphos (environ 1h de route).",
+        "<strong>🗿</strong>: Arrêt photo et contemplation à Petra tou Romiou (Rocher d'Aphrodite), un site légendaire.",
+        "<strong>🛏️</strong>: Installation à votre hôtel à Paphos et soirée libre pour explorer le port."
+      ],
+      "illustration": "jour9.jpg",
+      "encarts": [
+        {
+          "symbole": "🌅",
+          "titre": "Coucher de Soleil",
+          "texte": "Le Rocher d'Aphrodite est particulièrement magique au coucher du soleil. Si votre timing le permet, c'est un spectacle à ne pas manquer."
+        }
+      ]
+    },
+    {
+      "jour": 10,
+      "symbole": "🏺",
+      "titre": "Trésors Archéologiques de Paphos",
+      "legende": "Plongez au cœur de l'histoire antique de Paphos en explorant ses sites archéologiques majeurs. Des tombes royales aux villas romaines ornées de mosaïques, cette journée est une immersion fascinante dans le passé glorieux de l'île, à un rythme tranquille.",
+      "lieu": "Paphos",
+      "activites": [
+        "<strong>🏺</strong>: Visite du Parc Archéologique de Paphos, avec ses célèbres mosaïques romaines et l'Odéon.",
+        "<strong>👑</strong>: Exploration des Tombeaux des Rois, un vaste site funéraire souterrain taillé dans la roche.",
+        "<strong>🚶‍♀️</strong>: Promenade le long du port de Paphos, admirant le château médiéval et les bateaux de pêche."
+      ],
+      "illustration": "jour10.jpg",
+      "encarts": [
+        {
+          "symbole": "☀️",
+          "titre": "Chaleur",
+          "texte": "Les sites archéologiques sont en plein air. Prévoyez de l'eau, un chapeau et visitez tôt le matin ou en fin d'après-midi pour éviter les heures les plus chaudes."
+        }
+      ]
+    },
+    {
+      "jour": 11,
+      "symbole": "⛵",
+      "titre": "Croisière Relaxante au Lagon Bleu",
+      "legende": "Évadez-vous pour une journée en mer le long de la péninsule d'Akamas. Une croisière paisible vous mènera au célèbre Lagon Bleu, où vous pourrez vous baigner dans des eaux turquoise immaculées, loin de la foule, pour une expérience de pure détente.",
+      "lieu": "Péninsule d'Akamas / Latsi",
+      "activites": [
+        "<strong>🚗</strong>: Courte route vers Latsi (environ 45 min de Paphos), point de départ des croisières.",
+        "<strong>⛵</strong>: Croisière relaxante vers le Lagon Bleu de la péninsule d'Akamas, avec arrêts baignade.",
+        "<strong>🐠</strong>: Baignade et snorkeling dans les eaux cristallines du Lagon Bleu."
+      ],
+      "illustration": "jour11.jpg",
+      "encarts": [
+        {
+          "symbole": "💧",
+          "titre": "Essentiels",
+          "texte": "N'oubliez pas votre maillot de bain, une serviette et de la crème solaire pour la croisière."
+        }
+      ]
+    },
+    {
+      "jour": 12,
+      "symbole": "🌴",
+      "titre": "Détente Côtière et Saveurs Locales",
+      "legende": "Après l'aventure en mer, cette journée est dédiée à la relaxation sur l'une des plages les plus populaires de Paphos. Profitez du soleil, des eaux calmes et terminez la journée par une immersion dans l'ambiance locale d'un marché traditionnel.",
+      "lieu": "Paphos",
+      "activites": [
+        "<strong>🏖️</strong>: Matinée de détente à Coral Bay, une plage de sable fin très appréciée pour sa baignade facile.",
+        "<strong>🛍️</strong>: Visite du marché municipal de Paphos pour découvrir l'artisanat local et les produits frais.",
+        "<strong>🍽️</strong>: Dîner dans une taverne traditionnelle de Paphos, savourant un mezze chypriote."
+      ],
+      "illustration": "jour12.jpg",
+      "encarts": [
+        {
+          "symbole": "🎁",
+          "titre": "Souvenirs",
+          "texte": "Le marché est un excellent endroit pour trouver des souvenirs authentiques et des produits locaux comme l'huile d'olive ou les épices."
+        }
+      ]
+    },
+    {
+      "jour": 13,
+      "symbole": "🏙️",
+      "titre": "Journée Culturelle à Nicosie, la Capitale Divisée",
+      "legende": "Explorez Nicosie, la dernière capitale divisée du monde. Cette journée offre une immersion culturelle unique, entre musées, rues commerçantes animées et le passage symbolique de la Ligne Verte, pour une perspective historique et contemporaine de Chypre.",
+      "lieu": "Nicosie",
+      "activites": [
+        "<strong>🚗</strong>: Excursion d'une journée à Nicosie (environ 1h45 de Paphos).",
+        "<strong>🚶‍♀️</strong>: Promenade dans la vieille ville fortifiée, explorant Ledra Street et le quartier de Laïki Geitonia.",
+        "<strong>🏛️</strong>: Visite du Musée de Chypre pour une plongée dans l'histoire de l'île."
+      ],
+      "illustration": "jour13.jpg",
+      "encarts": [
+        {
+          "symbole": "🛂",
+          "titre": "Passage de la Ligne Verte",
+          "texte": "Le passage à la partie nord de Nicosie est possible avec une pièce d'identité valide (passeport ou carte d'identité)."
+        }
+      ]
+    },
+    {
+      "jour": 14,
+      "symbole": "🧘‍♀️",
+      "titre": "Journée Bien-être et Relaxation à Paphos",
+      "legende": "Après l'effervescence de Nicosie, cette journée est entièrement dédiée à la détente et au bien-être. Profitez des installations de votre hôtel ou d'un spa local pour vous ressourcer, ou simplement d'une journée tranquille au bord de la piscine ou de la mer.",
+      "lieu": "Paphos",
+      "activites": [
+        "<strong>💆‍♀️</strong>: Matinée au spa de l'hôtel ou dans un centre de bien-être local (massages, soins).",
+        "<strong>📖</strong>: Lecture et farniente au bord de la piscine ou sur une plage tranquille.",
+        "<strong>🚶‍♂️</strong>: Douce promenade en fin de journée le long de la côte pour admirer le coucher de soleil."
+      ],
+      "illustration": "jour14.jpg",
+      "encarts": [
+        {
+          "symbole": "🌸",
+          "titre": "Détente",
+          "texte": "De nombreux hôtels à Paphos proposent d'excellents services de spa. N'hésitez pas à vous faire plaisir."
+        }
+      ]
+    },
+    {
+      "jour": 15,
+      "symbole": "🌿",
+      "titre": "Jardins et Saveurs de la Campagne Chypriote",
+      "legende": "Explorez la campagne autour de Paphos, découvrant des jardins botaniques apaisants et des villages authentiques. Cette journée est une invitation à la sérénité, ponctuée par la dégustation de produits locaux dans un cadre verdoyant et calme.",
+      "lieu": "Paphos / Campagne environnante",
+      "activites": [
+        "<strong>🌺</strong>: Visite des Jardins Botaniques d'Eleouthkia, un havre de paix floral.",
+        "<strong>🏡</strong>: Exploration du village de Geroskipou, connu pour ses loukoumia (délices turcs) et son église byzantine.",
+        "<strong>🧺</strong>: Pique-nique avec des produits locaux achetés au marché ou dans une petite épicerie."
+      ],
+      "illustration": "jour15.jpg",
+      "encarts": [
+        {
+          "symbole": "🍬",
+          "titre": "Gourmandise",
+          "texte": "Les loukoumia de Geroskipou sont une spécialité locale à goûter absolument."
+        }
+      ]
+    },
+    {
+      "jour": 16,
+      "symbole": "🛍️",
+      "titre": "Journée Libre et Derniers Achats",
+      "legende": "Profitez d'une journée libre pour revisiter un lieu coup de cœur, faire du shopping pour les derniers souvenirs ou simplement vous détendre. C'est l'occasion de savourer les derniers instants de votre séjour à Chypre à votre rythme.",
+      "lieu": "Paphos",
+      "activites": [
+        "<strong>🛍️</strong>: Shopping de dernière minute dans les boutiques de Paphos pour des souvenirs ou des produits locaux.",
+        "<strong>☕</strong>: Profiter d'un café tranquille en terrasse, observant l'animation locale.",
+        "<strong>🌅</strong>: Dîner d'adieu dans un restaurant avec vue sur la mer, célébrant votre voyage."
+      ],
+      "illustration": "jour16.jpg",
+      "encarts": [
+        {
+          "symbole": "🎁",
+          "titre": "Idées Cadeaux",
+          "texte": "L'huile d'olive, le halloumi, les vins locaux et l'artisanat sont d'excellents souvenirs à rapporter."
+        }
+      ]
+    },
+    {
+      "jour": 17,
+      "symbole": "🚗",
+      "titre": "Retour vers Larnaca et Douceur Finale",
+      "legende": "Entamez le chemin du retour vers la région de Larnaca, en profitant une dernière fois des paysages chypriotes. Cette journée est conçue pour un trajet sans stress, avec une installation confortable près de l'aéroport pour faciliter le départ du lendemain.",
+      "lieu": "Larnaca / Région",
+      "activites": [
+        "<strong>🚗</strong>: Route de Paphos vers la région de Larnaca (environ 1h30-2h).",
+        "<strong>🛏️</strong>: Installation dans un hôtel près de l'aéroport de Larnaca ou dans le centre-ville.",
+        "<strong>🍽️</strong>: Dîner paisible dans une taverne locale, savourant les dernières saveurs chypriotes."
+      ],
+      "illustration": "jour17.jpg",
+      "encarts": [
+        {
+          "symbole": "⛽",
+          "titre": "Voiture de Location",
+          "texte": "Pensez à faire le plein d'essence avant de rendre votre voiture de location à l'aéroport."
+        }
+      ]
+    },
+    {
+      "jour": 18,
+      "symbole": "🛫",
+      "titre": "Départ de Chypre",
+      "legende": "Après 18 jours de découvertes et de détente, il est temps de quitter la belle île de Chypre. Profitez d'un dernier petit-déjeuner chypriote avant de vous rendre à l'aéroport pour votre vol retour, la tête pleine de souvenirs ensoleillés.",
+      "lieu": "Larnaca",
+      "activites": [
+        "<strong>🍳</strong>: Petit-déjeuner à l'hôtel.",
+        "<strong>🚗</strong>: Restitution de la voiture de location à l'aéroport de Larnaca (LCA).",
+        "<strong>🛫</strong>: Vol retour vers les États-Unis."
+      ],
+      "illustration": "jour18.jpg",
+      "encarts": [
+        {
+          "symbole": "⏰",
+          "titre": "Heure de Départ",
+          "texte": "Prévoyez suffisamment de temps pour le trajet vers l'aéroport, la restitution de la voiture et les formalités d'embarquement."
+        }
+      ]
+    }
+  ],
+  "detail_budget": [
+    { "titre": "Budget vol:", "legende": "A partir de 877 €/pers (A/R JFK-LCA)", "symbole": "🛬" },
+    { "titre": "Budget transports:", "legende": "Environ 475 €/pers (location voiture + essence, basé sur 2 pers)", "symbole": "🚗" },
+    { "titre": "Budget repas:", "legende": "Environ 700 €/pers (30-50€/jour pour 18 jours)", "symbole": "🥗" },
+    { "titre": "Budget logement:", "legende": "Environ 850 €/pers (hôtel 3*, basé sur 2 pers, 100€/nuit)", "symbole": "🛏️" },
+    { "titre": "Budget activités:", "legende": "Environ 400 €/pers (entrées sites, croisière, spa)", "symbole": "🎭" }
+  ],
+  "periodes_ideales": [
+    { "titre": "Avril-Mai (printemps doux, floraison)", "symbole": "🌸" },
+    { "titre": "Septembre-Octobre (chaleur agréable, moins de foule)", "symbole": "☀️" }
+  ],
+  "infos_pratiques": [
+    { "titre": "La conduite se fait à gauche à Chypre. Les routes sont en bon état. Un permis de conduire international est recommandé.", "symbole": "🚗" },
+    { "titre": "La monnaie est l'Euro (€). Les cartes de crédit sont largement acceptées, mais ayez un peu de liquide pour les petits commerces.", "symbole": "💳" },
+    { "titre": "Les prises électriques sont de type G (britannique, 3 broches). Prévoyez un adaptateur.", "symbole": "🔌" },
+    { "titre": "Le grec est la langue officielle, mais l'anglais est très répandu, surtout dans les zones touristiques.", "symbole": "🗣️" },
+    { "titre": "L'eau du robinet est potable dans la plupart des villes, mais l'eau en bouteille est souvent préférée pour le goût.", "symbole": "💧" }
+  ],
+  "liens_utiles": [
+    { "legende": "Vols", "titre": "Réserve ton vol", "url": "https://www.kayak.fr/flights/JFK-LCA/2026-06-01/2026-06-19", "symbole": "🛬" },
+    { "legende": "Location de voiture", "titre": "Rentalcars Chypre", "url": "https://www.rentalcars.com/fr/country/cy/", "symbole": "🚗" },
+    { "legende": "Infos officielles et inspirations", "titre": "Visit Cyprus", "url": "https://www.visitcyprus.com/index.php/fr/", "symbole": "📘" },
+    { "legende": "Météo", "titre": "Météo Chypre", "url": "https://www.accuweather.com/fr/cy/cyprus-weather", "symbole": "🌤️" }
+  ]
+}
