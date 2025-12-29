@@ -1,0 +1,726 @@
+
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Évasion Sereine à Chypre: Plages, Histoire et Douceur Méditerranéenne </title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <script>
+      tailwind.config = {
+          theme: {
+              extend: {
+                  colors: {
+                      template: {
+                          sable: '#FFEDD5', 
+                          ocre: '#F97316',   // Orange Vibrant (Brand Accent)
+                          roche: '#0F172A',  // Bleu Nuit (Brand Dark)
+                          ciel: '#0D9488',   // Vert Lagon (Brand Primary)
+                          bg: '#FFF7ED'      // C'est un blanc cassé chaud, parfait pour la lecture et le contraste.
+                      }
+                  },
+                  fontFamily: {
+                      sans: ['"Plus Jakarta Sans"', 'sans-serif'], // Nouvelle police corps
+                      serif: ['"Outfit"', 'sans-serif'],           // Nouvelle police titres
+                  }
+              }
+          }
+      }
+    </script>
+    <style>
+        body { overflow-x: hidden; }
+        
+        /* 2. FORÇAGE DES GRAISSES (Comme sur la Landing Page) */
+        .font-sans { font-weight: 600 !important; }
+        .font-serif { font-weight: 800 !important; }
+
+        /* Ligne verticale de la timeline */
+        .timeline-line {
+            position: absolute;
+            left: 24px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background-color: #E5E7EB;
+            z-index: 0;
+        }
+
+        @media (min-width: 768px) {
+            .timeline-line { left: 50%; margin-left: -1px; }
+        }
+
+        /* Style des cartes Info */
+        .tip-card {
+            border-left: 4px solid #F97316; /* ocre */
+            background-color: #FFF7ED;
+        }
+
+        /* Masquer la scrollbar de la nav mobile tout en gardant le scroll */
+        .hide-scroll::-webkit-scrollbar { display: none; }
+        .hide-scroll { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="bg-template-bg text-template-roche antialiased">
+    
+    <nav id="nav-desktop" class="hidden md:flex fixed top-0 w-full z-50 bg-white/90 backdrop-blur border-b border-gray-200 py-4 px-8 justify-between items-center shadow-sm transition-transform duration-300 -translate-y-full">
+        <a href="#top" class="text-xl font-serif font-bold tracking-widest text-template-roche">MyTrip<span class="text-template-ocre">Planner</span></a>
+        <div class="space-x-6 text-sm font-bold text-gray-600">
+            <a href="#jour-1" class="nav-item-desktop hover:text-template-ocre transition">Le Parcours</a>
+            <a href="#pratique" class="nav-item-desktop hover:text-template-ocre transition">Infos Pratiques</a>
+        </div>
+    </nav>
+
+    <nav id="nav-mobile" class="md:hidden fixed top-0 w-full z-50 bg-white/95 backdrop-blur border-b border-gray-200 py-3 pl-4 overflow-x-auto hide-scroll whitespace-nowrap shadow-md transition-transform duration-300 -translate-y-full">
+        <div class="flex space-x-2 pr-4" id="mobile-menu-container">
+            <a href="#top" class="inline-block px-3 py-1 bg-template-roche text-white rounded-full text-xs font-bold shadow-sm">Top</a>
+            
+                <a href="#jour-1" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J1 Arrivée à Larnaca et Premiers Pas Chypriotes</a>
+            
+                <a href="#jour-2" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J2 Trésors Historiques et Naturels de Larnaca</a>
+            
+                <a href="#jour-3" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J3 Plages Paradisiaques et Paysages Côtiers</a>
+            
+                <a href="#jour-4" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J4 Exploration Marine et Douceur du Littoral</a>
+            
+                <a href="#jour-5" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J5 Voyage vers Limassol et Sites Antiques</a>
+            
+                <a href="#jour-6" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J6 Charme de Limassol et Dégustation Locale</a>
+            
+                <a href="#jour-7" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J7 Évasion dans les Montagnes du Troodos</a>
+            
+                <a href="#jour-8" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J8 Randonnées Douces et Cascades Secrètes</a>
+            
+                <a href="#jour-9" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J9 Vers Paphos et la Légende d'Aphrodite</a>
+            
+                <a href="#jour-10" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J10 Trésors Archéologiques de Paphos</a>
+            
+                <a href="#jour-11" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J11 Croisière Relaxante au Lagon Bleu</a>
+            
+                <a href="#jour-12" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J12 Détente Côtière et Saveurs Locales</a>
+            
+                <a href="#jour-13" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J13 Journée Culturelle à Nicosie, la Capitale Divisée</a>
+            
+                <a href="#jour-14" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J14 Journée Bien-être et Relaxation à Paphos</a>
+            
+                <a href="#jour-15" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J15 Jardins et Saveurs de la Campagne Chypriote</a>
+            
+                <a href="#jour-16" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J16 Journée Libre et Derniers Achats</a>
+            
+                <a href="#jour-17" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J17 Retour vers Larnaca et Douceur Finale</a>
+            
+                <a href="#jour-18" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J18 Départ de Chypre</a>
+            
+            <a href="#pratique" class="mobile-link inline-block px-3 py-1 border border-gray-300 text-gray-500 rounded-full text-xs font-bold">Infos</a>
+        </div>
+    </nav>
+
+    <header id="top" class="relative h-[60vh] flex items-center justify-center bg-cover bg-center"
+            style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('https://raw.githubusercontent.com/mytripplanner-dotfr/Chypre-oqmpe7f4z2jz5h3/main/header.png" || 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=2021'}');">
+        
+        <div class="relative z-20 text-center text-white px-4 max-w-3xl animate-fade-in-up">
+            <p class="font-sans text-template-sable tracking-[0.2em] mb-4 uppercase text-xs font-bold">Feuille de Route</p>
+            <h1 class="font-serif text-5xl md:text-8xl mb-6 leading-tight drop-shadow-lg">CHYPRE</h1>
+            <p class="font-sans text-lg md:text-xl text-gray-100 mb-10 font-medium max-w-2xl mx-auto leading-relaxed">Évasion Sereine à Chypre: Plages, Histoire et Douceur Méditerranéenne</p>
+            
+            <div class="flex flex-wrap justify-center gap-4 text-sm font-bold mb-10">
+                <span class="bg-white/20 backdrop-blur-md px-5 py-2 rounded-full border border-white/30 shadow-sm">🗓️ 18 jours</span>
+                <span class="bg-white/20 backdrop-blur-md px-5 py-2 rounded-full border border-white/30 shadow-sm">💰 3300-3500€ par personne</span>
+                <span class="bg-white/20 backdrop-blur-md px-5 py-2 rounded-full border border-white/30 shadow-sm">🛬 14h30 (avec escale depuis Jean, etats unis)</span>
+            </div>
+        </div>
+    </header>
+
+    <section id="itineraire" class="max-w-6xl mx-auto px-4 py-16 relative">
+        <div class="text-center mb-16">
+            <h2 class="text-template-ocre font-bold tracking-normal text-4xl mt-2 uppercase font-serif">Votre Roadtrip</h2>
+        </div>
+
+        <div class="relative">
+            <div class="timeline-line"></div>
+            
+                <div id="jour-1" class="section-etape relative z-10 mb-20 md:flex md:flex-row-reverse md:justify-between items-start group scroll-mt-32">
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-roche rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-left md:pl-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2 font-bold">Jour 1</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Arrivée à Larnaca et Premiers Pas Chypriotes</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Après un long vol, cette première journée est dédiée à une installation en douceur. Profitez de l'ambiance décontractée de Larnaca, de sa promenade en bord de mer et d'un dîner relaxant pour vous imprégner de l'atmosphère méditerranéenne. Le rythme est léger pour récupérer du décalage horaire.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left font-medium">
+                            <li><strong>🛬</strong>: Arrivée à l'aéroport de Larnaca (LCA) et récupération de la voiture de location.</li><li><strong>🛏️</strong>: Installation à votre hôtel à Larnaca et moment de détente.</li><li><strong>🚶‍♂️</strong>: Balade relaxante le long de la promenade de Finikoudes, bordée de palmiers et de cafés.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pr-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/mytripplanner-dotfr/Chypre-oqmpe7f4z2jz5h3/main/jour1.jpg" class="w-full h-64 object-cover" alt="Jour 1">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">ℹ️ Conseil Arrivée</p>
+                                <p class="text-gray-700">Le trajet depuis les États-Unis est long. Prévoyez une arrivée en douceur et ne surchargez pas cette première journée pour bien récupérer.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-2" class="section-etape relative z-10 mb-20 md:flex  md:justify-between items-start group scroll-mt-32">
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-ocre rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-right md:pr-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2 font-bold">Jour 2</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Trésors Historiques et Naturels de Larnaca</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Découvrez les sites emblématiques de Larnaca, mêlant spiritualité et beauté naturelle. La journée combine des visites culturelles avec des moments de contemplation au bord du lac salé, offrant un aperçu paisible de l'histoire et de l'écologie locale.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left font-medium">
+                            <li><strong>🕌</strong>: Visite de la mosquée Hala Sultan Tekke, un lieu de pèlerinage important au bord du lac salé de Larnaca.</li><li><strong>🦢</strong>: Observation des flamants roses (en saison) et autres oiseaux migrateurs au lac salé de Larnaca (selon la période de l'année).</li><li><strong>⛪</strong>: Exploration de l'église Saint-Lazare, un chef-d'œuvre byzantin au cœur de la ville.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pl-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/mytripplanner-dotfr/Chypre-oqmpe7f4z2jz5h3/main/jour2.jpg" class="w-full h-64 object-cover" alt="Jour 2">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">📸 Photographie</p>
+                                <p class="text-gray-700">Le lac salé offre des paysages magnifiques, surtout au lever ou au coucher du soleil. N'oubliez pas votre appareil photo.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-3" class="section-etape relative z-10 mb-20 md:flex md:flex-row-reverse md:justify-between items-start group scroll-mt-32">
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-ciel rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-left md:pl-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2 font-bold">Jour 3</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Plages Paradisiaques et Paysages Côtiers</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Cap sur la côte est pour profiter de certaines des plus belles plages de Chypre. Cette journée est dédiée à la détente au soleil, à la baignade dans des eaux cristallines et à de douces promenades le long des sentiers côtiers, loin de l'agitation.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left font-medium">
+                            <li><strong>🚗</strong>: Route panoramique vers la région d'Ayia Napa/Protaras (environ 45 min de Larnaca).</li><li><strong>🚶‍♀️</strong>: Balade tranquille au Cap Greco, explorant ses grottes marines et ses vues imprenables sur la Méditerranée.</li><li><strong>🌊</strong>: Détente et baignade à Konnos Bay, une crique isolée aux eaux turquoise et au sable fin.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pr-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/mytripplanner-dotfr/Chypre-oqmpe7f4z2jz5h3/main/jour3.jpg" class="w-full h-64 object-cover" alt="Jour 3">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">☀️ Protection Solaire</p>
+                                <p class="text-gray-700">Le soleil chypriote est intense. N'oubliez pas crème solaire, chapeau et lunettes de soleil.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-4" class="section-etape relative z-10 mb-20 md:flex  md:justify-between items-start group scroll-mt-32">
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-roche rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-right md:pr-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2 font-bold">Jour 4</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Exploration Marine et Douceur du Littoral</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Poursuite de l'exploration des merveilles côtières de l'est. Entre plages emblématiques et criques secrètes, cette journée invite à la baignade, à la relaxation et à la découverte des fonds marins avec masque et tuba, dans une ambiance paisible.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left font-medium">
+                            <li><strong>🏖️</strong>: Matinée de détente à Nissi Beach, célèbre pour son sable blanc et ses eaux peu profondes.</li><li><strong>🐠</strong>: Snorkeling dans les eaux claires de Fig Tree Bay, une autre plage magnifique de Protaras.</li><li><strong>🌅</strong>: Dîner en bord de mer à Protaras, profitant de l'ambiance sereine du soir.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pl-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/mytripplanner-dotfr/Chypre-oqmpe7f4z2jz5h3/main/jour4.jpg" class="w-full h-64 object-cover" alt="Jour 4">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🍽️ Cuisine Locale</p>
+                                <p class="text-gray-700">Goûtez aux spécialités de poissons frais dans les tavernes locales en bord de mer.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-5" class="section-etape relative z-10 mb-20 md:flex md:flex-row-reverse md:justify-between items-start group scroll-mt-32">
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-ocre rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-left md:pl-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2 font-bold">Jour 5</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Voyage vers Limassol et Sites Antiques</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Quittez la côte est pour rejoindre Limassol, la deuxième plus grande ville de Chypre. En chemin, plongez dans l'histoire antique en visitant le spectaculaire site archéologique de Kourion, offrant des vues imprenables sur la mer.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left font-medium">
+                            <li><strong>🚗</strong>: Départ d'Ayia Napa/Protaras pour Limassol (environ 1h15 de route).</li><li><strong>🏛️</strong>: Visite du site archéologique de Kourion, avec son théâtre gréco-romain et ses mosaïques.</li><li><strong>🛏️</strong>: Installation à votre hôtel à Limassol et soirée libre pour explorer le centre-ville.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pr-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/mytripplanner-dotfr/Chypre-oqmpe7f4z2jz5h3/main/jour5.jpg" class="w-full h-64 object-cover" alt="Jour 5">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🚶‍♂️ Chaussures Confortables</p>
+                                <p class="text-gray-700">Prévoyez des chaussures confortables pour la visite de Kourion, le site est vaste et en plein air.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-6" class="section-etape relative z-10 mb-20 md:flex  md:justify-between items-start group scroll-mt-32">
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-ciel rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-right md:pr-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2 font-bold">Jour 6</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Charme de Limassol et Dégustation Locale</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Explorez le cœur historique de Limassol, de son château médiéval à son port moderne. L'après-midi est dédiée à une expérience gustative dans la région viticole voisine, combinant culture et plaisir des sens dans un cadre relaxant.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left font-medium">
+                            <li><strong>🏰</strong>: Découverte du Château de Limassol et du Vieux Port, avec ses boutiques et cafés.</li><li><strong>🚶‍♀️</strong>: Promenade dans les ruelles du Vieux Limassol, admirant l'architecture et l'ambiance.</li><li><strong>🍇</strong>: Visite d'un domaine viticole dans la région de Commandaria (ex: KEO Winery) avec dégustation de vins locaux.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pl-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/mytripplanner-dotfr/Chypre-oqmpe7f4z2jz5h3/main/jour6.jpg" class="w-full h-64 object-cover" alt="Jour 6">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🍷 Vin de Commandaria</p>
+                                <p class="text-gray-700">Le Commandaria est un vin doux de dessert, l'un des plus anciens vins du monde. À ne pas manquer!</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-7" class="section-etape relative z-10 mb-20 md:flex md:flex-row-reverse md:justify-between items-start group scroll-mt-32">
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-roche rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-left md:pl-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2 font-bold">Jour 7</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Évasion dans les Montagnes du Troodos</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Laissez la côte derrière vous pour une journée rafraîchissante dans les majestueuses montagnes du Troodos. Visitez des monastères byzantins classés à l'UNESCO et flânez dans des villages pittoresques, profitant de la fraîcheur et de la sérénité de l'altitude.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left font-medium">
+                            <li><strong>🚗</strong>: Excursion dans les montagnes du Troodos (environ 1h de Limassol).</li><li><strong>⛪</strong>: Visite du Monastère de Kykkos, le plus riche et le plus célèbre de Chypre.</li><li><strong>🏡</strong>: Promenade dans le charmant village d'Omodos, connu pour ses ruelles pavées et son vin.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pr-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/mytripplanner-dotfr/Chypre-oqmpe7f4z2jz5h3/main/jour7.jpg" class="w-full h-64 object-cover" alt="Jour 7">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🌡️ Températures</p>
+                                <p class="text-gray-700">Les montagnes du Troodos sont plus fraîches que la côte. Prévoyez une petite laine, même en été.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-8" class="section-etape relative z-10 mb-20 md:flex  md:justify-between items-start group scroll-mt-32">
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-ocre rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-right md:pr-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2 font-bold">Jour 8</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Randonnées Douces et Cascades Secrètes</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Poursuivez votre exploration des Troodos avec des balades accessibles menant à de magnifiques cascades. C'est une journée pour se reconnecter à la nature, respirer l'air pur de la montagne et profiter de paysages verdoyants et apaisants.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left font-medium">
+                            <li><strong>🚶‍♂️</strong>: Randonnée facile vers les cascades de Caledonia (environ 1h30 aller-retour), un sentier ombragé et rafraîchissant.</li><li><strong>🌿</strong>: Détente et pique-nique au bord de la rivière ou près des cascades.</li><li><strong>💧</strong>: Découverte de la cascade de Millomeris, une autre perle cachée des Troodos.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pl-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/mytripplanner-dotfr/Chypre-oqmpe7f4z2jz5h3/main/jour8.jpg" class="w-full h-64 object-cover" alt="Jour 8">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">👟 Équipement</p>
+                                <p class="text-gray-700">Des chaussures de marche confortables sont recommandées pour les sentiers des cascades.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-9" class="section-etape relative z-10 mb-20 md:flex md:flex-row-reverse md:justify-between items-start group scroll-mt-32">
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-ciel rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-left md:pl-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2 font-bold">Jour 9</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Vers Paphos et la Légende d'Aphrodite</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Quittez les montagnes pour la côte ouest, direction Paphos, ville classée au patrimoine mondial de l'UNESCO. En chemin, faites une halte emblématique au rocher d'Aphrodite, lieu de naissance mythique de la déesse de l'amour et de la beauté.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left font-medium">
+                            <li><strong>🚗</strong>: Route de Limassol à Paphos (environ 1h de route).</li><li><strong>🗿</strong>: Arrêt photo et contemplation à Petra tou Romiou (Rocher d'Aphrodite), un site légendaire.</li><li><strong>🛏️</strong>: Installation à votre hôtel à Paphos et soirée libre pour explorer le port.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pr-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/mytripplanner-dotfr/Chypre-oqmpe7f4z2jz5h3/main/jour9.jpg" class="w-full h-64 object-cover" alt="Jour 9">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🌅 Coucher de Soleil</p>
+                                <p class="text-gray-700">Le Rocher d'Aphrodite est particulièrement magique au coucher du soleil. Si votre timing le permet, c'est un spectacle à ne pas manquer.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-10" class="section-etape relative z-10 mb-20 md:flex  md:justify-between items-start group scroll-mt-32">
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-roche rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-right md:pr-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2 font-bold">Jour 10</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Trésors Archéologiques de Paphos</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Plongez au cœur de l'histoire antique de Paphos en explorant ses sites archéologiques majeurs. Des tombes royales aux villas romaines ornées de mosaïques, cette journée est une immersion fascinante dans le passé glorieux de l'île, à un rythme tranquille.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left font-medium">
+                            <li><strong>🏺</strong>: Visite du Parc Archéologique de Paphos, avec ses célèbres mosaïques romaines et l'Odéon.</li><li><strong>👑</strong>: Exploration des Tombeaux des Rois, un vaste site funéraire souterrain taillé dans la roche.</li><li><strong>🚶‍♀️</strong>: Promenade le long du port de Paphos, admirant le château médiéval et les bateaux de pêche.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pl-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/mytripplanner-dotfr/Chypre-oqmpe7f4z2jz5h3/main/jour10.jpg" class="w-full h-64 object-cover" alt="Jour 10">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">☀️ Chaleur</p>
+                                <p class="text-gray-700">Les sites archéologiques sont en plein air. Prévoyez de l'eau, un chapeau et visitez tôt le matin ou en fin d'après-midi pour éviter les heures les plus chaudes.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-11" class="section-etape relative z-10 mb-20 md:flex md:flex-row-reverse md:justify-between items-start group scroll-mt-32">
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-ocre rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-left md:pl-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2 font-bold">Jour 11</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Croisière Relaxante au Lagon Bleu</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Évadez-vous pour une journée en mer le long de la péninsule d'Akamas. Une croisière paisible vous mènera au célèbre Lagon Bleu, où vous pourrez vous baigner dans des eaux turquoise immaculées, loin de la foule, pour une expérience de pure détente.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left font-medium">
+                            <li><strong>🚗</strong>: Courte route vers Latsi (environ 45 min de Paphos), point de départ des croisières.</li><li><strong>⛵</strong>: Croisière relaxante vers le Lagon Bleu de la péninsule d'Akamas, avec arrêts baignade.</li><li><strong>🐠</strong>: Baignade et snorkeling dans les eaux cristallines du Lagon Bleu.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pr-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/mytripplanner-dotfr/Chypre-oqmpe7f4z2jz5h3/main/jour11.jpg" class="w-full h-64 object-cover" alt="Jour 11">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">💧 Essentiels</p>
+                                <p class="text-gray-700">N'oubliez pas votre maillot de bain, une serviette et de la crème solaire pour la croisière.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-12" class="section-etape relative z-10 mb-20 md:flex  md:justify-between items-start group scroll-mt-32">
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-ciel rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-right md:pr-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2 font-bold">Jour 12</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Détente Côtière et Saveurs Locales</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Après l'aventure en mer, cette journée est dédiée à la relaxation sur l'une des plages les plus populaires de Paphos. Profitez du soleil, des eaux calmes et terminez la journée par une immersion dans l'ambiance locale d'un marché traditionnel.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left font-medium">
+                            <li><strong>🏖️</strong>: Matinée de détente à Coral Bay, une plage de sable fin très appréciée pour sa baignade facile.</li><li><strong>🛍️</strong>: Visite du marché municipal de Paphos pour découvrir l'artisanat local et les produits frais.</li><li><strong>🍽️</strong>: Dîner dans une taverne traditionnelle de Paphos, savourant un mezze chypriote.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pl-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/mytripplanner-dotfr/Chypre-oqmpe7f4z2jz5h3/main/jour12.jpg" class="w-full h-64 object-cover" alt="Jour 12">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🎁 Souvenirs</p>
+                                <p class="text-gray-700">Le marché est un excellent endroit pour trouver des souvenirs authentiques et des produits locaux comme l'huile d'olive ou les épices.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-13" class="section-etape relative z-10 mb-20 md:flex md:flex-row-reverse md:justify-between items-start group scroll-mt-32">
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-roche rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-left md:pl-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2 font-bold">Jour 13</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Journée Culturelle à Nicosie, la Capitale Divisée</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Explorez Nicosie, la dernière capitale divisée du monde. Cette journée offre une immersion culturelle unique, entre musées, rues commerçantes animées et le passage symbolique de la Ligne Verte, pour une perspective historique et contemporaine de Chypre.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left font-medium">
+                            <li><strong>🚗</strong>: Excursion d'une journée à Nicosie (environ 1h45 de Paphos).</li><li><strong>🚶‍♀️</strong>: Promenade dans la vieille ville fortifiée, explorant Ledra Street et le quartier de Laïki Geitonia.</li><li><strong>🏛️</strong>: Visite du Musée de Chypre pour une plongée dans l'histoire de l'île.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pr-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/mytripplanner-dotfr/Chypre-oqmpe7f4z2jz5h3/main/jour13.jpg" class="w-full h-64 object-cover" alt="Jour 13">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🛂 Passage de la Ligne Verte</p>
+                                <p class="text-gray-700">Le passage à la partie nord de Nicosie est possible avec une pièce d'identité valide (passeport ou carte d'identité).</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-14" class="section-etape relative z-10 mb-20 md:flex  md:justify-between items-start group scroll-mt-32">
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-ocre rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-right md:pr-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2 font-bold">Jour 14</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Journée Bien-être et Relaxation à Paphos</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Après l'effervescence de Nicosie, cette journée est entièrement dédiée à la détente et au bien-être. Profitez des installations de votre hôtel ou d'un spa local pour vous ressourcer, ou simplement d'une journée tranquille au bord de la piscine ou de la mer.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left font-medium">
+                            <li><strong>💆‍♀️</strong>: Matinée au spa de l'hôtel ou dans un centre de bien-être local (massages, soins).</li><li><strong>📖</strong>: Lecture et farniente au bord de la piscine ou sur une plage tranquille.</li><li><strong>🚶‍♂️</strong>: Douce promenade en fin de journée le long de la côte pour admirer le coucher de soleil.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pl-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/mytripplanner-dotfr/Chypre-oqmpe7f4z2jz5h3/main/jour14.jpg" class="w-full h-64 object-cover" alt="Jour 14">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🌸 Détente</p>
+                                <p class="text-gray-700">De nombreux hôtels à Paphos proposent d'excellents services de spa. N'hésitez pas à vous faire plaisir.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-15" class="section-etape relative z-10 mb-20 md:flex md:flex-row-reverse md:justify-between items-start group scroll-mt-32">
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-ciel rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-left md:pl-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2 font-bold">Jour 15</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Jardins et Saveurs de la Campagne Chypriote</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Explorez la campagne autour de Paphos, découvrant des jardins botaniques apaisants et des villages authentiques. Cette journée est une invitation à la sérénité, ponctuée par la dégustation de produits locaux dans un cadre verdoyant et calme.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left font-medium">
+                            <li><strong>🌺</strong>: Visite des Jardins Botaniques d'Eleouthkia, un havre de paix floral.</li><li><strong>🏡</strong>: Exploration du village de Geroskipou, connu pour ses loukoumia (délices turcs) et son église byzantine.</li><li><strong>🧺</strong>: Pique-nique avec des produits locaux achetés au marché ou dans une petite épicerie.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pr-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/mytripplanner-dotfr/Chypre-oqmpe7f4z2jz5h3/main/jour15.jpg" class="w-full h-64 object-cover" alt="Jour 15">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🍬 Gourmandise</p>
+                                <p class="text-gray-700">Les loukoumia de Geroskipou sont une spécialité locale à goûter absolument.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-16" class="section-etape relative z-10 mb-20 md:flex  md:justify-between items-start group scroll-mt-32">
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-roche rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-right md:pr-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2 font-bold">Jour 16</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Journée Libre et Derniers Achats</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Profitez d'une journée libre pour revisiter un lieu coup de cœur, faire du shopping pour les derniers souvenirs ou simplement vous détendre. C'est l'occasion de savourer les derniers instants de votre séjour à Chypre à votre rythme.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left font-medium">
+                            <li><strong>🛍️</strong>: Shopping de dernière minute dans les boutiques de Paphos pour des souvenirs ou des produits locaux.</li><li><strong>☕</strong>: Profiter d'un café tranquille en terrasse, observant l'animation locale.</li><li><strong>🌅</strong>: Dîner d'adieu dans un restaurant avec vue sur la mer, célébrant votre voyage.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pl-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/mytripplanner-dotfr/Chypre-oqmpe7f4z2jz5h3/main/jour16.jpg" class="w-full h-64 object-cover" alt="Jour 16">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🎁 Idées Cadeaux</p>
+                                <p class="text-gray-700">L'huile d'olive, le halloumi, les vins locaux et l'artisanat sont d'excellents souvenirs à rapporter.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-17" class="section-etape relative z-10 mb-20 md:flex md:flex-row-reverse md:justify-between items-start group scroll-mt-32">
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-ocre rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-left md:pl-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2 font-bold">Jour 17</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Retour vers Larnaca et Douceur Finale</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Entamez le chemin du retour vers la région de Larnaca, en profitant une dernière fois des paysages chypriotes. Cette journée est conçue pour un trajet sans stress, avec une installation confortable près de l'aéroport pour faciliter le départ du lendemain.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left font-medium">
+                            <li><strong>🚗</strong>: Route de Paphos vers la région de Larnaca (environ 1h30-2h).</li><li><strong>🛏️</strong>: Installation dans un hôtel près de l'aéroport de Larnaca ou dans le centre-ville.</li><li><strong>🍽️</strong>: Dîner paisible dans une taverne locale, savourant les dernières saveurs chypriotes.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pr-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/mytripplanner-dotfr/Chypre-oqmpe7f4z2jz5h3/main/jour17.jpg" class="w-full h-64 object-cover" alt="Jour 17">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">⛽ Voiture de Location</p>
+                                <p class="text-gray-700">Pensez à faire le plein d'essence avant de rendre votre voiture de location à l'aéroport.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-18" class="section-etape relative z-10 mb-20 md:flex  md:justify-between items-start group scroll-mt-32">
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-ciel rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-right md:pr-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2 font-bold">Jour 18</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Départ de Chypre</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Après 18 jours de découvertes et de détente, il est temps de quitter la belle île de Chypre. Profitez d'un dernier petit-déjeuner chypriote avant de vous rendre à l'aéroport pour votre vol retour, la tête pleine de souvenirs ensoleillés.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left font-medium">
+                            <li><strong>🍳</strong>: Petit-déjeuner à l'hôtel.</li><li><strong>🚗</strong>: Restitution de la voiture de location à l'aéroport de Larnaca (LCA).</li><li><strong>🛫</strong>: Vol retour vers les États-Unis.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pl-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/mytripplanner-dotfr/Chypre-oqmpe7f4z2jz5h3/main/jour18.jpg" class="w-full h-64 object-cover" alt="Jour 18">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">⏰ Heure de Départ</p>
+                                <p class="text-gray-700">Prévoyez suffisamment de temps pour le trajet vers l'aéroport, la restitution de la voiture et les formalités d'embarquement.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+        </div>
+    </section>
+
+    <section id="pratique" class="bg-white border-t border-gray-200 pt-12 pb-12 scroll-mt-24">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-10">
+            <div>
+                <h4 class="font-serif text-xl mb-4 text-template-roche flex items-center gap-2 font-bold">
+                    <span>💴</span> Budget
+                </h4>
+                
+                    <p class="text-sm text-gray-600 leading-relaxed mb-2"><strong>Budget vol: </strong>A partir de 877 €/pers (A/R JFK-LCA)</p>
+                
+                    <p class="text-sm text-gray-600 leading-relaxed mb-2"><strong>Budget transports: </strong>Environ 475 €/pers (location voiture + essence, basé sur 2 pers)</p>
+                
+                    <p class="text-sm text-gray-600 leading-relaxed mb-2"><strong>Budget repas: </strong>Environ 700 €/pers (30-50€/jour pour 18 jours)</p>
+                
+                    <p class="text-sm text-gray-600 leading-relaxed mb-2"><strong>Budget logement: </strong>Environ 850 €/pers (hôtel 3*, basé sur 2 pers, 100€/nuit)</p>
+                
+                    <p class="text-sm text-gray-600 leading-relaxed mb-2"><strong>Budget activités: </strong>Environ 400 €/pers (entrées sites, croisière, spa)</p>
+                
+            </div>
+            <div>
+                <h4 class="font-serif text-xl mb-4 text-template-roche flex items-center gap-2 font-bold">
+                    <span>☀️</span> Périodes Idéales
+                </h4>
+                
+                    <p class="text-sm text-gray-600 leading-relaxed mb-2">Avril-Mai (printemps doux, floraison)</p>
+                
+                    <p class="text-sm text-gray-600 leading-relaxed mb-2">Septembre-Octobre (chaleur agréable, moins de foule)</p>
+                
+            </div>
+            <div>
+                <h4 class="font-serif text-xl mb-4 text-template-roche flex items-center gap-2 font-bold">
+                    <span>📃</span> Infos pratiques
+                </h4>
+                
+                    <p class="text-sm text-gray-600 leading-relaxed mb-2">🚗 La conduite se fait à gauche à Chypre. Les routes sont en bon état. Un permis de conduire international est recommandé.</p>
+                
+                    <p class="text-sm text-gray-600 leading-relaxed mb-2">💳 La monnaie est l'Euro (€). Les cartes de crédit sont largement acceptées, mais ayez un peu de liquide pour les petits commerces.</p>
+                
+                    <p class="text-sm text-gray-600 leading-relaxed mb-2">🔌 Les prises électriques sont de type G (britannique, 3 broches). Prévoyez un adaptateur.</p>
+                
+                    <p class="text-sm text-gray-600 leading-relaxed mb-2">🗣️ Le grec est la langue officielle, mais l'anglais est très répandu, surtout dans les zones touristiques.</p>
+                
+                    <p class="text-sm text-gray-600 leading-relaxed mb-2">💧 L'eau du robinet est potable dans la plupart des villes, mais l'eau en bouteille est souvent préférée pour le goût.</p>
+                
+            </div>            
+            <div>
+                <h4 class="font-serif text-xl mb-4 text-template-roche flex items-center gap-2 font-bold">
+                    <span>🔗</span> Liens Utiles
+                </h4>
+                <ul class="text-sm space-y-3">
+                  <li><a href="https://mytripplanner-dotfr.github.io/Chypre-oqmpe7f4z2jz5h3/map.html" target="_blank" class="hover:text-template-ocre transition flex items-center gap-2"><strong>🗺️ Carte Interactive</strong></a></li>
+                    
+                        <li><a href="https://www.kayak.fr/flights/JFK-LCA/2026-06-01/2026-06-19" target="_blank" class="hover:text-template-ocre transition flex items-center gap-2"><strong>🛬 Réserve ton vol</strong></a></li>
+                    
+                        <li><a href="https://www.rentalcars.com/fr/country/cy/" target="_blank" class="hover:text-template-ocre transition flex items-center gap-2"><strong>🚗 Rentalcars Chypre</strong></a></li>
+                    
+                        <li><a href="https://www.visitcyprus.com/index.php/fr/" target="_blank" class="hover:text-template-ocre transition flex items-center gap-2"><strong>📘 Visit Cyprus</strong></a></li>
+                    
+                        <li><a href="https://www.accuweather.com/fr/cy/cyprus-weather" target="_blank" class="hover:text-template-ocre transition flex items-center gap-2"><strong>🌤️ Météo Chypre</strong></a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-50 border-t border-slate-200 py-6">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <p class="font-serif text-lg text-template-roche mb-2 font-bold">
+                MyTrip<span class="text-template-ocre">Planner</span>
+            </p>
+
+                <div class="flex justify-center gap-4 text-[10px] md:text-xs text-slate-500 mb-4 font-semibold">
+                    <a href="#" class="hover:text-brand-primary transition hover:underline">Mentions Légales</a>
+                    <a href="#" class="hover:text-brand-primary transition hover:underline">CGU</a>
+                    <a href="#" class="hover:text-brand-primary transition hover:underline">Confidentialité</a>
+                </div>
+
+            <p class="text-[10px] text-gray-400 mb-2">
+                &copy; 2025 MyTripPlanner. Tous droits réservés.
+            </p>
+
+            <div class="flex justify-center">
+                <p class="text-[10px] text-gray-400 uppercase tracking-widest px-2 py-0.5 border border-gray-200 rounded-full inline-block">
+                    🤖 Contenu généré par IA
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Gestion Scroll & Menu
+        const navDesktop = document.getElementById('nav-desktop');
+        const navMobile = document.getElementById('nav-mobile');
+        
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 300) {
+                navDesktop.classList.remove('-translate-y-full');
+                navMobile.classList.remove('-translate-y-full');
+            } else {
+                navDesktop.classList.add('-translate-y-full');
+                navMobile.classList.add('-translate-y-full');
+            }
+        });
+        
+        // Active Link Highlighter
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const activeId = entry.target.id;
+                    document.querySelectorAll('.mobile-link').forEach(link => {
+                        const linkHref = link.getAttribute('href').substring(1);
+                        if (linkHref === activeId) {
+                            link.classList.remove('bg-gray-100', 'text-gray-700');
+                            link.classList.add('bg-template-ocre', 'text-white', 'shadow-md');
+                            link.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+                        } else {
+                            link.classList.add('bg-gray-100', 'text-gray-700');
+                            link.classList.remove('bg-template-ocre', 'text-white', 'shadow-md');
+                        }
+                    });
+                }
+            });
+        }, { rootMargin: '-40% 0px -60% 0px' });
+
+        document.querySelectorAll('div[id^="jour-"], section#pratique').forEach(s => observer.observe(s));
+    </script>
+</body>
+</html>
